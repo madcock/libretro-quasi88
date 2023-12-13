@@ -205,7 +205,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
          { "half",  "Half (320x200)" },
          { NULL, NULL }
       },
-#if defined (PSP) || defined (_3DS)
+#if defined (PSP) || defined (_3DS) || defined (SF2000)
       "half"
 #else
       "full"
